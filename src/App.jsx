@@ -1,11 +1,16 @@
-
+import { SectionWrapper,Features,Download } from "./components/index"
+import assets from './assets';
 
 const App = () => {
   return (
     <div>
-    <h1 className="text-6xl font-semibold underline">
-      Hello world!
-    </h1>
+      <SectionWrapper 
+        title="Your own store of NFTs.Start Selling and Growing."
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using ProNef Marketplace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
+      />
     </div>
   )
 }
